@@ -122,7 +122,7 @@ imap <leader>h ><ESC>bi<<ESC>ya<eepbi/<LEFT><LEFT>
 " quick format {} for programming
 imap <leader>{ {}<LEFT><CR><CR><ESC>ka<TAB>
 " quick html5 sample doc
-noremap <leader>html a<!DOCTYPE html><CR><html><CR><head lang="zh-cn"><CR><TAB><meta charset="utf-8"><CR><title></title><CR><BS></head><CR><body><CR><CR></body><CR></html><ESC>kkkkkf>a
+noremap <leader>html a<!DOCTYPE html><ESC>o<html lang="zh-cn"><ESC>o<head><ESC>o<meta charset="utf-8"><ESC>o<title></title><ESC>o</head><ESC>o<body><ESC>o<ESC>o</body><ESC>o</html><ESC>6kI<TAB><ESC>jI<TAB><ESC>f>a
 " quick php sample doc
 noremap <leader>php a<?php<CR><CR>?><ESC>ka
 
