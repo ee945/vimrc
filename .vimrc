@@ -7,7 +7,6 @@
 " NERD Commenter    : http://www.vim.org/scripts/script.php?script_id=1218
 " NERD tree         : http://www.vim.org/scripts/script.php?script_id=1658
 " snipMate          : http://www.vim.org/scripts/script.php?script_id=2540
-" SuperTab          : http://www.vim.org/scripts/script.php?script_id=1643
 " taglist           : http://www.vim.org/scripts/script.php?script_id=273
 "
 """"""""""""""""""""""""""""""""""""""""""""""""""
