@@ -54,7 +54,11 @@ syntax enable
 syntax on
 filetype plugin on
 filetype indent on
-set guifont=Monaco:h12,Consolas:h12
+if has("gui_gtk2")
+    set guifont=monaco\ 12
+elseif has("gui_win32") || has("gui_macvim")
+    set guifont=monaco:h12
+endif
 if has("gui_running")
     set guioptions-=T
     set guioptions+=e
